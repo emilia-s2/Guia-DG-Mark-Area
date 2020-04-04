@@ -17,8 +17,6 @@ TERA-Guide-Area
 
 (Grotto of Lost Souls)
 
-(Bahaar's Sanctum)
-
 (Gossamer Vault)
 
 (Demokron Factory)
