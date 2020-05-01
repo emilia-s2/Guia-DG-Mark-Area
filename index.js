@@ -372,51 +372,6 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnPoint(bossLoc, bossAngle, 2000, 1, 280, 250);
 			}
 		}
-		// GLS_1王 304050
-		if ([782, 982, 3019].includes(whichmode) && event.templateId==1000 && event.stage==0) {
-			if (skillid==107) { // 后喷
-				SpawnThing(bossLoc, bossAngle, 3000, 2,   0,   0,   0,  500,  45);
-				SpawnThing(bossLoc, bossAngle, 3000, 2,   0,   0,   0,  500, 315);
-			}
-		}
-		// GLS_2王 304060
-		if ([782, 982, 3019].includes(whichmode) && event.templateId==2000 && event.stage==0) {
-			if (skillid==116) { // 前砸后砸 横向对称轴
-				SpawnThing(bossLoc, bossAngle, 5000, 2,   0,   0,   0,  500,  90);
-				SpawnThing(bossLoc, bossAngle, 5000, 2,   0,   0,   0,  500, 270);
-			}
-			if (skillid==114) { // 三连拍
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,  10, 250);
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,   4, 620);
-			}
-			if (skillid==301) { // 捶地+旋转
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,  10, 260);
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,   4, 580);
-			}
-			if (skillid==302) { // 旋转+捶地
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,  10, 260);
-				SpawnThing(bossLoc, bossAngle, 5000, 3,   0,   0,   0,  360,   4, 680);
-			}
-		}
-		// GLS_3王 303550
-		if ([782, 982, 3019].includes(whichmode) && event.templateId==3000) {
-			if ([146, 154].includes(skillid)) { // 右扩散电圈标记
-				SpawnPoint(bossLoc, bossAngle, 4000, 1, 325, 370);
-			}
-			if ([148, 155].includes(skillid)) { // 左扩散电圈标记
-				SpawnPoint(bossLoc, bossAngle, 4000, 1,  25, 388);
-			}
-			if ([139, 150].includes(skillid)) { // 飞天半屏右攻击
-				SpawnThing(bossLoc, bossAngle, 2000, 2,   0,   0,   0,  300, 180);
-				SpawnThing(bossLoc, bossAngle, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(bossLoc, bossAngle, 2000, 1, 270, 250);
-			}
-			if ([141, 152].includes(skillid)) { // 飞天半屏左攻击
-				SpawnThing(bossLoc, bossAngle, 2000, 2,   0,   0,   0,  300, 180);
-				SpawnThing(bossLoc, bossAngle, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(bossLoc, bossAngle, 2000, 1,  90, 250);
-			}
-		}
 		// GV_1王 303890
 		if ([3101, 3201].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if ([127, 107].includes(skillid)) { // 直线后喷
