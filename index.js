@@ -405,45 +405,6 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
 			}
 		}
-		// BS_火神 303510 303520
-		if (whichmode== 444 && [1000, 2000].includes(event.templateId) && event.stage==0) {
-			if (skillid==119) { // 右半屏击飞
-				SpawnPoint(event.loc, event.w, 5000, 1, 270, 250);
-			}
-			if (skillid==120) { // 左半屏击飞
-				SpawnPoint(event.loc, event.w, 5000, 1,  90, 250);
-			}
-			if ([311, 312].includes(skillid)) { // 对称轴
-				SpawnThing(event.loc, event.w, 6000, 2,   0,   0,   0,  500, 180);
-				SpawnThing(event.loc, event.w, 6000, 2,   0,   0,   0,  500,   0);
-			}
-			if (skillid==132) { // 左拉 131 132 134
-				SpawnThing(event.loc, event.w, 2000, 2, 195, 400,   0,  800, 348);
-			}
-			if (skillid==126) { // 右拉 125 126 127
-				SpawnThing(event.loc, event.w, 2000, 2, 165, 400,   0,  800,  12);
-			}
-			if (skillid==101) { // 锤地(三连击)
-				SpawnThing(event.loc, event.w, 4000, 2,   0,   0,   0,  500, 270);
-				SpawnThing(event.loc, event.w, 4000, 2,   0,   0,   0,  500, 345);
-			}
-			if ([121,122,123, 140,141,142].includes(skillid)) { // 四连半月
-				SpawnThing(event.loc, event.w, 6000, 2, 270,  50,   0,  400, 180);
-				SpawnThing(event.loc, event.w, 6000, 2, 270,  50,   0,  400,   0);
-				SpawnThing(event.loc, event.w, 6000, 2,  90,  50,   0,  400, 180);
-				SpawnThing(event.loc, event.w, 6000, 2,  90,  50,   0,  400,   0);
-			}
-			if (skillid==114) { // 点名 -> 捶地
-				SpawnThing(event.loc, event.w, 4000, 3, 184, 260,   0,  360,  10, 320);
-			}
-			if (skillid==116) { // 点名 -> 甜甜圈
-				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,  10, 290);
-				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,   4, 580);
-			}
-			if ([112, 135].includes(skillid)) { // 完美格挡
-				SpawnThing(event.loc, event.w, 4000, 3, 184, 220,   0,  360,  15, 210);
-			}
-		}
 		// GV_1王 303890
 		if ([3101, 3201].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if ([127, 107].includes(skillid)) { // 直线后喷
