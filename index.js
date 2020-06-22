@@ -12,9 +12,9 @@ module.exports = function Tera_Guide_Area(mod) {
 		uid2               = 899999999n, // 花朵UID
 		offsetLoc          = {};    // 偏移坐标
 	// 控制命令
-	mod.command.add(["地面提示", "area"], () => {
+	mod.command.add(["地面提示", "mark.area"], () => {
 		Enabled = !Enabled;
-		mod.command.message("地面提示(Area) " + (Enabled ? "启用(ON)" : "禁用(OFF)"));
+		mod.command.message("Mark" + (Enabled ? "Area(ON)" : "Area(OFF)"));
 	});
 	// 切换场景
 	mod.game.me.on('change_zone', (zone, quick) => {
