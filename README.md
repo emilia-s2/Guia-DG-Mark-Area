@@ -3,6 +3,7 @@ TERA-Guide-Area
 
 # Informações das DG incluídas
 
+(Ruinous Manor)
 
 (Velik’s Sanctuary)
 
@@ -12,9 +13,15 @@ TERA-Guide-Area
 
 (Antaroth's Abyss)
 
+(Dark Reach Citadel)
+
 (Grotto of Lost Souls)
 
 (Gossamer Vault)
+
+(Demokron Factory)
+
+(Forsaken Island)
 
 (Akalath Quarantine)
 
