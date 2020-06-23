@@ -24,10 +24,10 @@ Este guia é com base no https://github.com/tera-mod/TERA-Guide-Area
 
 ------
 
-/8频道 键入命令 | 效果说明
+/8mark.area | 
 --- | ---
 地面提示 | 开启/关闭模组
 
-Proxy(/8) Usage (proxy command) | description
+Proxy(/8) use o (proxy command) | description
 --- | ---
-area | enabled / disabled
+mark.area | ON / OFF
