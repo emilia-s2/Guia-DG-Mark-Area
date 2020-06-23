@@ -24,10 +24,10 @@ Este guia é com base no https://github.com/tera-mod/TERA-Guide-Area
 
 ------
 
-/8mark.area | ou
+/8mark.area | on/off
 --- | ---
 !mark.area | on/off
 
-Proxy(/8) use o (proxy command) | description
+/8 para abrir o chat (proxy command) | description
 --- | ---
 mark.area | ON / OFF
