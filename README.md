@@ -1,35 +1,46 @@
 TERA-Guide-Area
 ======
 
-# Informações das DG incluídas
+# 功能简介: 为TERA的常用副本提供[技能]辅助 地面提示
 
-(Ruinous Manor)
+岱魔鲁斯的轮盘 (Demon's Wheel)
 
-(Velik’s Sanctuary)
+拉坎里斯的废墟 (Ruinous Manor)
 
-(RK-9 Kennel)
+贝里克神殿 (Velik’s Sanctuary)
 
-(Red Refuge)
+RK-9机库 (RK-9 Kennel)
 
-(Antaroth's Abyss)
+革命团总部 (Red Refuge)
 
-(Dark Reach Citadel)
+安塔洛斯的深渊 (Antaroth's Abyss)
 
-(Grotto of Lost Souls)
+泰内布利斯城堡 (Dark Reach Citadel)
 
-(Gossamer Vault)
+里安的地下殿堂 (Grotto of Lost Souls)
 
-(Demokron Factory)
+巴哈勒神殿 (Bahaar's Sanctum)
 
-(Forsaken Island)
+费尔奎娜巢穴 (Gossamer Vault)
 
-(Akalath Quarantine)
+费勒诺的实验室 (Demokron Factory)
 
-(Sailing Instance)
+伯恩斯坦恶灵岛 (Forsaken Island)
 
-(Corrupted Skynest)
+贝尔亚克城堡 (Akalath Quarantine)
 
-(Forbidden Arena)
+金鳞号 (Sailing Instance)
 
+凯尔赛克隐藏地(Corrupted Skynest)
 
-Este guia é com base no  https://github.com/tera-mod/TERA-Guide-Area
+狂气竞技场(Forbidden Arena)
+
+------
+
+/8频道 键入命令 | 效果说明
+--- | ---
+地面提示 | 开启/关闭模组
+
+Proxy(/8) Usage (proxy command) | description
+--- | ---
+area | enabled / disabled
