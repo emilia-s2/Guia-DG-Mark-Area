@@ -588,7 +588,7 @@ module.exports = function Tera_Guide_Area(mod) {
 		// FA_狂气 545050
 		if (whichmode==3027 && event.templateId==1000 && event.stage==0) {
 			if ([116, 140].includes(skillid)) { // 斩击
-				SpawnThing(event.loc, event.w, 2000, 3, 180, 180,   0,  360,   8, 460);
+				//SpawnThing(event.loc, event.w, 2000, 3, 180, 180,   0,  360,   8, 460);
 			}
 			if (skillid==302) { // 甜甜圈
 				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,  10, 240);
