@@ -1,33 +1,32 @@
-Área TERA-Guide
 Informações das DG incluídas
-(Santuário de Velik)
 
-(Canil RK-9)
+(Velik's Sanctuary)
 
-(Refúgio Vermelho)
+(RK-9 Kennel)
 
-(Abismo de Antaroth)
+(Red Refuge)
 
-(Gruta das Almas Perdidas)
+(Antaroth's Abyss - Hard)
 
-(Cofre Gossamer)
+(Gossamer Vault - Hard)
 
-(Quarentena de Akalath)
+(Akalath Quarantine)
 
-(Instância de Vela)
+(Sea Of Honor)
 
-(Skynest Corrompido)
+(Corrupted Skynest - NM-HM)
 
-(Arena Proibida)
+(Forbidden Arena)
 
-Este guia é com base no https://github.com/tera-mod/TERA-Guide-Area
+(Bahaar's Sanctum)
+
+(Draakon Arena - NM-HM) -  Beta_Test
+
+
+Guia base https://github.com/tera-mod/TERA-Guide-Area
 
 ------
 
-
-
-
-------
 
 /8 para abrir o chat (comando proxy) | Descriçao
 --- | ---
