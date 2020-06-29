@@ -1,7 +1,7 @@
-Guide-DG-Mark
+Guide-DG
 ======
 
-DG incluídas
+Dungeons incluídas
 ======
 
 
