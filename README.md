@@ -31,7 +31,7 @@ Dungeons incluídas
 Guia base https://github.com/tera-mod/TERA-Guide-Area
 
 ------
-![Exemplo mark Area](https://github.com/emilia-s2/capituras/blob/master/mark%20area.png)
+![Exemplo mark Area](https://github.com/emilia-s2/Guia-DG-Mark-Area/blob/master/imagens/mark%20area.png)
 -------
 
 /8 para abrir o chat (comando proxy) | Descriçao
