@@ -102,7 +102,7 @@ module.exports = function Tera_Guide_Area(mod) {
 		
 		// BS_火神_王座
 		if (whichmode== 444 && event.templateId==2500 && event.stage==0 && event.skill.id==1305) {
-			SpawnThing(event.loc, event.w, 4000, 2, 0, 0, 0, 3000, 180);
+//			SpawnThing(event.loc, event.w, 4000, 2, 0, 0, 0, 3000, 180);
 		}
 		
 		if (boss_ID != event.gameId) return;
@@ -111,7 +111,7 @@ module.exports = function Tera_Guide_Area(mod) {
 		// DW_1王 302180
 		
 		// DW_2王 303360
-		if (whichmode== 466 && event.templateId==46602 && event.stage==0) {
+/*		if (whichmode== 466 && event.templateId==46602 && event.stage==0) {
 			if ([311, 312, 313, 314].includes(skillid)) { // 举球 内外圈
 				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,  10, 330);
 			}
@@ -173,21 +173,21 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnThing(event.loc, event.w, 6000, 3,   0,   0,   0,  360,   8, 420);
 				SpawnThing(event.loc, event.w, 6000, 3,   0,   0,   0,  360,   4, 620);
 			}
-		}
+		}*/
 		// VS_1王 303340
 		if ([781, 981].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if (skillid==401) { // 右刀
 				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500, 180);
 				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 1500, 1, 270, 250);
+//				SpawnPoint(event.loc, event.w, 1500, 1, 270, 250);
 			}
 			if (skillid==402) { // 左刀
 				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500, 180);
 				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 1500, 1,  90, 250);
+//				SpawnPoint(event.loc, event.w, 1500, 1,  90, 250);
 			}
 			if (skillid==304) { // 内外圈
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300);
 			}
 		}
 		// VS_2王 303350
@@ -195,12 +195,12 @@ module.exports = function Tera_Guide_Area(mod) {
 			if (skillid==131) { // 右刀
 				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 175);
 				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   5);
-				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
+//				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
 			}
 			if (skillid==130) { // 左刀
 				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 180);
 				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
+//				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
 			}
 		}
 		// VS_3王 303330
@@ -215,93 +215,93 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnThing(event.loc, event.w, 8000, 3, 180,  35,   0,  360,   8, 520);
 			}
 			if (skillid==138) { // 滚开 内外圈 601 602
-				SpawnThing(event.loc, event.w, 5000, 3, 180,  35,   0,  360,  10, 300);
+//				SpawnThing(event.loc, event.w, 5000, 3, 180,  35,   0,  360,  10, 350); // Alterado 360>260 Tamanho
 			}
 		}
 		// RK_1王 303400
 		if ([735, 935].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if (skillid==315||skillid==319) { // 披萨_1 前右
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  //
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  //
 				}, 1000);
 			}
 			if (skillid==311||skillid==323) { // 披萨_2 右上
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
 				}, 1000);
 			}
 			
 			if (skillid==312||skillid==324) { // 披萨_3 右下
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
 				}, 1000);
 			}
 			
 			if (skillid==316||skillid==320) { // 披萨_4 后右
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
 				}, 1000);
 			}
 			
 			if (skillid==313||skillid==321) { // 披萨_5 后左
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
 				}, 1000);
 			}
 			
 			if (skillid==317||skillid==325) { // 披萨_6 左下
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
 				}, 1000);
 			}
 			
 			if (skillid==318||skillid==322) { // 披萨_7 左上
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
 				}, 1000);
 			}
 			
 			if (skillid==314||skillid==326) { // 披萨_8 前左
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);
-				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
+//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  ///
 				}, 1000);
 			}
 		}
 		// RK_2王 303420
 		if ([735, 935].includes(whichmode) && event.templateId==2000 && event.stage==0) {
 			if (skillid==108) { // 后喷
-				SpawnThing(event.loc, event.w, 3000, 2,   0,   0,   0,  380,  60);
-				SpawnThing(event.loc, event.w, 3000, 2,   0,   0,   0,  380, 300);
-				SpawnThing(event.loc, event.w, 3000, 3,   0,   0, 300,   60,  10, 380);
+//				SpawnThing(event.loc, event.w, 3000, 2,   0,   0,   0,  380,  60);       //
+//				SpawnThing(event.loc, event.w, 3000, 2,   0,   0,   0,  380, 300);       //
+//				SpawnThing(event.loc, event.w, 3000, 3,   0,   0, 300,   60,  10, 380);  //
 			}
 			if (skillid==105) { // 旋转
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 278);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 278);   //
 			}
 			if (skillid==305) { // 吸附
-				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  18, 200);
+//				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  18, 200);   //
 			}
 			if (skillid==304) { // 爆炸
-				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,   8, 400);
+//				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,   8, 400);  //
 			}
 		}
 		// RK_3王 303410
 		if ([735, 935].includes(whichmode) && event.templateId==3000 && event.stage==0) {
 			if (skillid==128) { // 火箭拳 后喷 131
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w, 3000, 2,   0,  40,   0, 1200,  60);
-				SpawnThing(event.loc, event.w, 3000, 2,   0,  40,   0, 1200, 300);
+//				SpawnThing(event.loc, event.w, 3000, 2,   0,  40,   0, 1200,  60);   //
+//				SpawnThing(event.loc, event.w, 3000, 2,   0,  40,   0, 1200, 300);   //
 				}, 2000);
 			}
 			if ([323, 324, 305].includes(skillid)) { // 雷达 / 鉴定
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300);
 			}
 		}
 		// RR_1王 303450
@@ -317,18 +317,18 @@ module.exports = function Tera_Guide_Area(mod) {
 		// AA_3王 303440
 		if ([720, 920, 3017].includes(whichmode) && event.templateId==3000 && event.stage==0) {
 			if (skillid==109) { // 右刀
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 180);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
+//				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
 			}
 			if (skillid==111) { // 左刀
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500, 180);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
+//				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
 			}
 		}
 		// DRC_1王 304070
-		if ([783, 983, 3018].includes(whichmode) && event.templateId==1000 && event.stage==0) {
+/*		if ([783, 983, 3018].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if (skillid==108) { // 后跳(眩晕)
 				SpawnThing(event.loc, event.w, 2000, 3,   0,  70,   0,  360,   8, 470);
 			}
@@ -359,7 +359,7 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnPoint(event.loc, event.w, 2000, 1, 100, 250);
 				SpawnPoint(event.loc, event.w, 2000, 1, 280, 250);
 			}
-		}
+		}*/
 		// GLS_1王 304050
 		if ([782, 982, 3019].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if (skillid==107) { // 后喷
@@ -370,20 +370,20 @@ module.exports = function Tera_Guide_Area(mod) {
 		// GLS_2王 304060
 		if ([782, 982, 3019].includes(whichmode) && event.templateId==2000 && event.stage==0) {
 			if (skillid==116) { // 前砸后砸 横向对称轴
-				SpawnThing(event.loc, event.w, 5000, 2,   0,   0,   0,  500,  90);
-				SpawnThing(event.loc, event.w, 5000, 2,   0,   0,   0,  500, 270);
+//				SpawnThing(event.loc, event.w, 5000, 2,   0,   0,   0,  500,  90);        //
+//				SpawnThing(event.loc, event.w, 5000, 2,   0,   0,   0,  500, 270);        //
 			}
 			if (skillid==114) { // 三连拍
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 250);
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 620);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 250);   //
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 620);   //
 			}
 			if (skillid==301) { // 捶地+旋转
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 260);
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 580);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 260);   //
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 580);   //
 			}
 			if (skillid==302) { // 旋转+捶地
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 260);
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 680);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 260);   //
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 680);   //
 			}
 		}
 		// GLS_3王 303550
@@ -395,14 +395,14 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnPoint(event.loc, event.w, 4000, 1,  25, 388);
 			}
 			if ([139, 150].includes(skillid)) { // 飞天半屏右攻击
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  300, 180);      //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);      //
+//				SpawnPoint(event.loc, event.w, 2000, 1, 270, 250);
 			}
 			if ([141, 152].includes(skillid)) { // 飞天半屏左攻击
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);
-				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  300, 180);      //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  500,   0);      //
+//				SpawnPoint(event.loc, event.w, 2000, 1,  90, 250);
 			}
 		}
 		// GV_1王 303890
@@ -415,20 +415,20 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800,  68);
 				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800, 292);
 			}
-			/* if ([132, 112].includes(skillid)) { // 左右喷射
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 163);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 192);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 343);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800,  22);
-			} */
+			 if ([132, 112].includes(skillid)) { // 左右喷射
+			  /*SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 163);  
+				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 192);  
+				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 343);  
+				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800,  22);*/  
+			} 
 			if ([139, 119].includes(skillid)) { // 前后喷射
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800,  70);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 110);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 250);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 290);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800,  70);   //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 110);   //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 250);   //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 290);   //
 			}
 			if ([313, 314].includes(skillid)) { // 内外圈
-				SpawnThing(event.loc, event.w, 4000, 3, 180,  88,   0,  360,  10, 300);
+//				SpawnThing(event.loc, event.w, 4000, 3, 180,  88,   0,  360,  10, 300);  //
 			}
 			if (skillid==148) { // 右手蓄力
 				SpawnThing(event.loc, event.w, 4000, 3, 160, 150,   0,  360,  10, 320);
@@ -448,57 +448,57 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnThing(event.loc, event.w, 4000, 2, 270,  80,   0, 1000, 197);
 			}
 			if ([231, 232].includes(skillid)) { // 内外圈
-				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 300);
+//				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 300);  //
 			}
 		}
 		// AQ_1王 303480
 		if (whichmode==3023 && event.templateId==1000 && event.stage==0) {
 			if ([1111,2111, 1113,2113].includes(event.skill.id)) { // 左手拉
-				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  500,   0);
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  500,   0);
+				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  300, 180); ///
+				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  500,   0); ///
+				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  300, 180); ///
+				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  500,   0); ///
 			}
 			if ([1112,2112, 1114,2114].includes(event.skill.id)) { // 右手拉
-				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  500,   0);
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  300, 180);
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  500,   0);
+				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  300, 180);  ///
+				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  500,   0);  ///
+				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  300, 180);  ///
+				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  500,   0);  ///
 			}
 			if (event.skill.id==3107) { // 重击
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  75,   0, 1000, 172);
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  75,   0, 1000, 188);
+//				SpawnThing(event.loc, event.w, 2000, 2,  90,  75,   0, 1000, 172);   //
+//				SpawnThing(event.loc, event.w, 2000, 2, 270,  75,   0, 1000, 188);   //
 			}
 			if ([1115, 2115].includes(event.skill.id)) { // 后扫半圈
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340, 260);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340,  90);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  20, 150);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 245);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 340);
+				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340, 260);       ///
+				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340,  90);       ///      
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  20, 150);  //
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 245);  //
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 340);  //
 			}
 			if (event.skill.id==3115) { // 旋转攻击
-				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 320);
+//				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 320);  //
 			}
 			if (event.skill.id==3116) { // 小圈 | 旋转攻击
 				mod.setTimeout(() => {
-				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 320);
+//				SpawnThing(event.loc, event.w, 3000, 3,   0,   0,   0,  360,  10, 320);  //
 				}, 2000);
 			}
 			if ([1110, 2110].includes(event.skill.id)) { // 前插
-				SpawnThing(event.loc, event.w, 3000, 3, 180, 160,   0,  360,  12, 220);
+//				SpawnThing(event.loc, event.w, 3000, 3, 180, 160,   0,  360,  12, 275);  //
 			}
 		}
 		// AQ_2王 303490
 		if (whichmode==3023 && event.templateId==2000 && event.stage==0) {
 			if (skillid==181) { // 插地板
-				SpawnThing(event.loc, event.w, 3000, 2,  90,  75,   0, 1000, 172);
-				SpawnThing(event.loc, event.w, 3000, 2, 270,  75,   0, 1000, 188);
+//				SpawnThing(event.loc, event.w, 3000, 2,  90,  75,   0, 1000, 172);     //
+//				SpawnThing(event.loc, event.w, 3000, 2, 270,  75,   0, 1000, 188);     //
 			}
 			if (skillid==202) { // 后退 | 前搓
-				SpawnThing(event.loc, event.w, 3000, 2,  90,  90,   0,  500,   0);
-				SpawnThing(event.loc, event.w, 3000, 2,  90,  90,   0,  500, 180);
-				SpawnThing(event.loc, event.w, 3000, 2, 270,  90,   0,  500,   0);
-				SpawnThing(event.loc, event.w, 3000, 2, 270,  90,   0,  500, 180);
+//				SpawnThing(event.loc, event.w, 3000, 2,  90,  90,   0,  500,   0);    //
+//				SpawnThing(event.loc, event.w, 3000, 2,  90,  90,   0,  500, 180);    //
+//				SpawnThing(event.loc, event.w, 3000, 2, 270,  90,   0,  500,   0);    // 
+//				SpawnThing(event.loc, event.w, 3000, 2, 270,  90,   0,  500, 180);    //
 			}
 		}
 		// SI_1王 542050
@@ -508,59 +508,60 @@ module.exports = function Tera_Guide_Area(mod) {
 		// SI_3王 545040
 		if (whichmode==3020 && event.templateId==2200) {
 			if (skillid==129 && event.stage==0) { // 直线骷髅
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  75,   0,  800, 180);
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  75,   0,  800, 180);
+//				SpawnThing(event.loc, event.w, 2000, 2,  90,  75,   0,  800, 180);    //
+//				SpawnThing(event.loc, event.w, 2000, 2, 270,  75,   0,  800, 180);   //
 			}
 			if (skillid==108 && event.stage==0) { // 蓄力(晕坦)
-				SpawnThing(event.loc, event.w, 2000, 3, 180, 170,   0,  360,  20, 120);
+//				SpawnThing(event.loc, event.w, 2000, 3, 180, 170,   0,  360,  20, 120); //
 			}
 			if (skillid==133 && event.stage==1) { // 后擒 -> 扩散4圈
 				event.loc = event.dest;
 				event.w = event.w;
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300);
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 600);
-				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 900);
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 300); //
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 600); //
+//				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,   4, 900); //
 			}
 			// 三连击
 			if (skillid==124 && event.stage==0) { // 前砸 -> 125 转圈
-				SpawnPoint(event.loc, event.w, 2000, 3, 180, 170);
-				SpawnThing(event.loc, event.w, 2000, 3, 180, 170,   0,  360,  10, 290);
+//				SpawnPoint(event.loc, event.w, 2000, 3, 180, 170);                      //
+//				SpawnThing(event.loc, event.w, 2000, 3, 180, 170,   0,  360,  10, 290); //
 			}
 			if (skillid==125 && event.stage==0) { // 转圈 -> 124 前砸
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0,   0,  360,  10, 280);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0,   0,  360,   4, 560);
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0,   0,  360,  10, 280); //
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0,   0,  360,   4, 560); //
 			}
 		}
 		// CK_凯尔 304260
 		if ([3026, 3126].includes(whichmode) && [1000, 1001, 1002].includes(event.templateId) && event.stage==0) {
 			if ([103, 153].includes(skillid)) { // 尾巴(击飞!!)
-				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500,  40);
-				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500, 280);
-				SpawnThing(event.loc, event.w, 1500, 3,   0,   0, 280,   40,   8, 500);
+//				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500,  40);     //
+//				SpawnThing(event.loc, event.w, 1500, 2,   0,   0,   0,  500, 280);     //
+//				SpawnThing(event.loc, event.w, 1500, 3,   0,   0, 280,   40,   8, 500);//
 			}
 			if ([108, 158].includes(skillid)) { // 右转(击退!!)
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 130);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440,  40);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 130,   40,   8, 440);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 130);      //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440,  40);      //
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 130,   40,   8, 440); //
 			}
 			if ([109, 159].includes(skillid)) { // 左转(击退!!)
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 230);
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 320);
-				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 320,  230,   8, 440);
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 230);      //
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  440, 320);      //
+//				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 320,  230,   8, 440); //
 			}
 			if ([212, 213, 214, 215].includes(skillid)) { // 内外鉴定
-				SpawnThing(event.loc, event.w, 8000, 3,   0,   0,   0,  360,   8, 440);
+//				SpawnThing(event.loc, event.w, 8000, 3,   0,   0,   0,  360,   8, 440);  // 
+//				SpawnThing(event.loc, event.w, 8000, 3,   0,   0,   0,  360,   4, 840);  //Acrecentado 8>4 Quantidade | 440>840 Tamanho //
 			}
 			if ([212, 214].includes(skillid)) { // 内外鉴定-火爪(141, 142)
-				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  720, 190);
-				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  720,  10);
+//				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  840, 180);  // Alterado 190>180 Posiçao //
+//				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  840,  0);   // Alterado 10>0 Posiçao    //
 			}
 			if ([213, 215].includes(skillid)) { // 内外鉴定-冰爪(143, 144)
-				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  720, 170);
-				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  720, 350);
+//				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  840, 180);  // Alterado 170>180 Posiçao //
+//				SpawnThing(event.loc, event.w, 8000, 2,   0,   0,   0,  840, 360);  // Alterado 350>360 Posiçao //
 			}
 			if (skillid==154) { // 寒气_小
-				SpawnThing(event.loc, event.w, 5000, 3, 180,  80,   0,  360,   8, 520);
+//				SpawnThing(event.loc, event.w, 5000, 3, 180,  80,   0,  360,   8, 520);
 			}
 			/* if (skillid==155) { // 八方陨石_小
 				SpawnThing(event.loc, event.w, 3000, 3, 135, 500,   0,  360,  20, 110);
@@ -575,24 +576,24 @@ module.exports = function Tera_Guide_Area(mod) {
 				SpawnThing(event.loc, event.w, 5000, 3,   0,   0,   0,  360,  10, 350);
 			} */
 			if (skillid==105) { // 八方陨石_大
-				SpawnThing(event.loc, event.w, 3000, 3, 135, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 3250, 3, 315, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 3500, 3,  45, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 3750, 3, 232, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 4000, 3,  90, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 4250, 3, 270, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 4500, 3,   0, 500,   0,  360,  10, 270);
-				SpawnThing(event.loc, event.w, 4750, 3, 180, 500,   0,  360,  10, 270);
+//				SpawnThing(event.loc, event.w, 3000, 3, 135, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 3250, 3, 315, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 3500, 3,  45, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 3750, 3, 232, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 4000, 3,  90, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 4250, 3, 270, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 4500, 3,   0, 500,   0,  360,  10, 270);   //
+//				SpawnThing(event.loc, event.w, 4750, 3, 180, 500,   0,  360,  10, 270);   //
 			}
 		}
 		// FA_狂气 545050
 		if (whichmode==3027 && event.templateId==1000 && event.stage==0) {
 			if ([116, 140].includes(skillid)) { // 斩击
-				//SpawnThing(event.loc, event.w, 2000, 3, 180, 180,   0,  360,   8, 460);
+//				SpawnThing(event.loc, event.w, 2000, 3, 180, 180,   0,  360,   8, 460);  //
 			}
 			if (skillid==302) { // 甜甜圈
-				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,  10, 240);
-				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,   8, 480);
+//				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,  10, 240);  //
+//				SpawnThing(event.loc, event.w, 4000, 3,   0,   0,   0,  360,   8, 480);  //
 			}
 		}
 	}
