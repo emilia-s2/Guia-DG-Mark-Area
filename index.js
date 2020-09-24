@@ -222,56 +222,56 @@ module.exports = function Tera_Guide_Area(mod) {
 		if ([735, 935].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if (skillid==315||skillid==319) { // 披萨_1 前右
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  //
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  //
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  ///
 				}, 1000);
 			}
 			if (skillid==311||skillid==323) { // 披萨_2 右上
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 135);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
 				}, 1000);
 			}
 			
 			if (skillid==312||skillid==324) { // 披萨_3 右下
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  90);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
 				}, 1000);
 			}
 			
 			if (skillid==316||skillid==320) { // 披萨_4 后右
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,  45);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
 				}, 1000);
 			}
 			
 			if (skillid==313||skillid==321) { // 披萨_5 后左
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800,   0);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
 				}, 1000);
 			}
 			
 			if (skillid==317||skillid==325) { // 披萨_6 左下
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 315);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
 				}, 1000);
 			}
 			
 			if (skillid==318||skillid==322) { // 披萨_7 左上
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 270);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
 				}, 1000);
 			}
 			
 			if (skillid==314||skillid==326) { // 披萨_8 前左
 				mod.setTimeout(() => {
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
-//				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 225);  ///
+				SpawnThing(event.loc, event.w,14000, 2,   0,   0,   0,  800, 180);  ///
 				}, 1000);
 			}
 		}
@@ -454,16 +454,16 @@ module.exports = function Tera_Guide_Area(mod) {
 		// AQ_1王 303480
 		if (whichmode==3023 && event.templateId==1000 && event.stage==0) {
 			if ([1111,2111, 1113,2113].includes(event.skill.id)) { // 左手拉
-				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  300, 180); ///
-				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  500,   0); ///
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  300, 180); ///
-				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  500,   0); ///
+//				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  300, 180); ///
+//				SpawnThing(event.loc, event.w, 2000, 2, 270, 200,   0,  500,   0); ///
+//				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  300, 180); ///
+//				SpawnThing(event.loc, event.w, 2000, 2,  90,  20,   0,  500,   0); ///
 			}
 			if ([1112,2112, 1114,2114].includes(event.skill.id)) { // 右手拉
-				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  300, 180);  ///
-				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  500,   0);  ///
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  300, 180);  ///
-				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  500,   0);  ///
+//				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  300, 180);  ///
+//				SpawnThing(event.loc, event.w, 2000, 2,  90, 200,   0,  500,   0);  ///
+//				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  300, 180);  ///
+//				SpawnThing(event.loc, event.w, 2000, 2, 270,  20,   0,  500,   0);  ///
 			}
 			if (event.skill.id==3107) { // 重击
 //				SpawnThing(event.loc, event.w, 2000, 2,  90,  75,   0, 1000, 172);   //
