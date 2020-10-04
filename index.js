@@ -470,8 +470,8 @@ module.exports = function Tera_Guide_Area(mod) {
 //				SpawnThing(event.loc, event.w, 2000, 2, 270,  75,   0, 1000, 188);   //
 			}
 			if ([1115, 2115].includes(event.skill.id)) { // 后扫半圈
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340, 260);       ///
-				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340,  90);       ///      
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340, 260);       ///
+//				SpawnThing(event.loc, event.w, 2000, 2,   0,   0, 150,  340,  90);       ///      
 //				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  20, 150);  //
 //				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 245);  //
 //				SpawnThing(event.loc, event.w, 2000, 3,   0,   0, 260,   90,  10, 340);  //
