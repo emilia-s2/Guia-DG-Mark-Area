@@ -408,12 +408,12 @@ module.exports = function Tera_Guide_Area(mod) {
 		// GV_1王 303890
 		if ([3101, 3201].includes(whichmode) && event.templateId==1000 && event.stage==0) {
 			if ([127, 107].includes(skillid)) { // 直线后喷
-				SpawnThing(event.loc, event.w, 2000, 2,  90, 140,   0,  800,   7);
-				SpawnThing(event.loc, event.w, 2000, 2, 270, 140,   0,  800, 353);
+//				SpawnThing(event.loc, event.w, 2000, 2,  90, 140,   0,  800,   7);
+//				SpawnThing(event.loc, event.w, 2000, 2, 270, 140,   0,  800, 353);
 			}
 			if ([131, 111].includes(skillid)) { // 扇形后喷
-				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800,  68);
-				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800, 292);
+//				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800,  68);
+//				SpawnThing(event.loc, event.w, 2000, 2, 180, 100,   0,  800, 292);
 			}
 			 if ([132, 112].includes(skillid)) { // 左右喷射
 			  /*SpawnThing(event.loc, event.w, 2000, 2,   0,   0,   0,  800, 163);  
@@ -431,10 +431,10 @@ module.exports = function Tera_Guide_Area(mod) {
 //				SpawnThing(event.loc, event.w, 4000, 3, 180,  88,   0,  360,  10, 300);  //
 			}
 			if (skillid==148) { // 右手蓄力
-				SpawnThing(event.loc, event.w, 4000, 3, 160, 150,   0,  360,  10, 320);
+//				SpawnThing(event.loc, event.w, 4000, 3, 160, 150,   0,  360,  10, 320);
 			}
 			if (skillid==149) { // 左手蓄力
-				SpawnThing(event.loc, event.w, 4000, 3, 200, 150,   0,  360,  10, 320);
+//				SpawnThing(event.loc, event.w, 4000, 3, 200, 150,   0,  360,  10, 320);
 			}
 		}
 		// GV_2王 303840
