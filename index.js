@@ -1,7 +1,7 @@
 const Vec3 = require('tera-vec3');
 
 module.exports = function Tera_Guide_Area(mod) {
-	let Enabled            = true;  // 总开关
+	let Enabled            = true;  // 总开关d
 	// 定义变量
 	let hooks              = [],
 		whichmode          = null,  // 副本地图(huntingZoneId)
@@ -32,7 +32,7 @@ module.exports = function Tera_Guide_Area(mod) {
 	function load() {
 		if (!hooks.length) {
 			hook('S_BOSS_GAGE_INFO',        3, sBossGageInfo);
-			hook('S_SPAWN_NPC',            11, sSpawnNpc);
+			hook('S_SPAWN_NPC',            12, sSpawnNpc);
 			hook('S_SPAWN_PROJECTILE',      5, sSpawnProjectile);
 			hook('S_ACTION_STAGE',          9, sActionStage);
 		}
