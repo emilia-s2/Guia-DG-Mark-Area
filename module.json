@@ -5,9 +5,10 @@
         "guiName": "(Tera-Guide-Area)"
     },
     "author": "ZC / Emilia",
-    "description": "Marcaçao de Ataques da area do Bos",
+    "description": "Mod Desativado por favor delete-o",
     "servers": ["https://raw.githubusercontent.com/emilia-s2/Guia-DG-Mark-Area/master/"],
     "supportUrl": "https://github.com/emilia-s2/Guia-DG-Mark-Area/issues",
-    "version": "98.02",
+    "version": "101.2",
+    "disabled": true,
     "disableAutoUpdate": false
 }
